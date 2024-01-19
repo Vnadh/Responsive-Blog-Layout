@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;;
+    padding: 20px;
+    background: #F8C0C8;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    background-image: url("https://images.unsplash.com/photo-1704739300067-0cfbf8eb8bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D") ;
+    background-size: cover;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+ /*image class*/
+  .img1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background-image: url("https://th.bing.com/th/id/OIG.BN8MXEnD1C4xP2QeT8ch?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn");
+    background-size: cover;
+  }
+  .img2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background-image: url("p1.jpeg");
+    background-size: cover;
+  }
+  .img3 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background-image: url("p2.jpeg");
+    background-size: cover;
+  }
+  .img4 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://th.bing.com/th/id/OIG.VYl4.hWtpqP71Y5GVI2I?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn");
+    background-size: cover;
+  }
+
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #ECE3F0;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #EFE7D3; 
+    padding: 20px 0; /* Padding for top and bottom */
+    color: #333; /* Dark gray text color */
+    text-align: center; /* Center align footer content */
+  }
+  
+  .footer .container {
+    max-width: 960px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px; /* Add space below headings */
+    font-weight: bold; /* Make headings bold */
+  }
+  
+  .footer ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .footer li {
+    display: inline-block; /* Display social media icons horizontally */
+    margin-right: 10px; /* Add space between icons */
+  }
+  
+  .footer .social-media a {
+    color: #333; /* Dark gray link color */
+  }
+  
+  .footer .social-media a:hover {
+    color: #000; /* Black color on hover */
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
