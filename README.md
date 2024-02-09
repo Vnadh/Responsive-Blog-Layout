@@ -1,8 +1,6 @@
 
 # Responsive Blog Layout
 
-
-
 ## Description
 
 This project is a responsive blog layout designed to provide an optimal reading experience across various devices and screen sizes. It focuses on creating a clean and visually appealing layout that adapts seamlessly to different screen resolutions.
